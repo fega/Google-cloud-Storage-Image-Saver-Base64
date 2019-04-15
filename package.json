@@ -1,0 +1,25 @@
+{
+  "name": "image-store-google-cloud-function",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava"
+  },
+  "author": "serverless.com",
+  "license": "MIT",
+  "devDependencies": {
+    "ava": "^1.4.1",
+    "serverless-google-cloudfunctions": "*"
+  },
+  "dependencies": {
+    "@google-cloud/storage": "^2.5.0",
+    "sharp": "^0.22.0",
+    "uuid": "^3.3.2"
+  },
+  "ava": {
+    "files": [
+      "test/*.test.js"
+    ]
+  }
+}
