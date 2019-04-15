@@ -17,6 +17,18 @@ This is a basic boilerplate for a Node.js service that can store images in googl
 3. Change the serverless.yml config file
 4. Deploy an enjoy
 
+## Request example
+
+```http
+POST /https://zone-project.cloudfunctions.net/base
+Content-Type application/json
+
+{
+  "name": "optional-file-name",
+  "image": "data:image/gif;base64,R0lGODlhPQBEAPeoAJosM//..."
+}
+```
+
 ## Response example
 
 ```javascript
